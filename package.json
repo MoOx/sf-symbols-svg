@@ -1,0 +1,54 @@
+{
+  "name": "sf-symbols-svg",
+  "description": "Convert Apple SF Symbols to SVGs",
+  "version": "6.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/MoOx/sf-symbols-svg",
+  "keywords": [
+    "sf-symbols",
+    "svg",
+    "icons"
+  ],
+  "author": {
+    "name": "Maxime Thirouin",
+    "url": "https://github.com/MoOx"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "type": "module",
+  "exports": "./dist/index.js",
+  "bin": {
+    "sf-symbols-svg": "./dist/index.js"
+  },
+  "files": [
+    "sources",
+    "dist",
+    "!dist/**.test.js"
+  ],
+  "scripts": {
+    "prepare": "husky",
+    "dev": "node --experimental-strip-types ./src/index.ts --weight all",
+    "test": "node --experimental-strip-types ./src/index.test.ts",
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "release": "npmpub"
+  },
+  "dependencies": {
+    "meow": "^12.1.1",
+    "opentype.js": "^1.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/opentype.js": "^1.3.8",
+    "@types/xmldom": "^0.1.34",
+    "husky": "^9",
+    "npmpub": "^5",
+    "prettier": "^3",
+    "typescript": "^5",
+    "xmldom": "^0.6.0"
+  },
+  "prettier": {
+    "trailingComma": "all"
+  }
+}

@@ -1,0 +1,4 @@
+moon.stars.fill
+puzzlepiece
+amplifier
+figure.hiking
