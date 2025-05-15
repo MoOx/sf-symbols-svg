@@ -149,7 +149,8 @@ This is particularly useful for:
 
 ### Font Compatibility
 
-> [!WARNING] SF Symbols requires specific _SF Pro Text_ font versions that match the SF Symbols version you're using. If the font versions don't match, the symbols may not render correctly.
+> [!WARNING]
+> SF Symbols requires specific _SF Pro Text_ font versions that match the SF Symbols version you're using. If the font versions don't match, the symbols may not render correctly.
 
 > [!CAUTION]
 > The Apple SF Symbols app will display a warning at the top of the application if your installed fonts don't match the expected version. Make sure to check this warning and install the appropriate font version from [Apple's website](https://developer.apple.com/fonts/).
