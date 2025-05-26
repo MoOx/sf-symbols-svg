@@ -163,9 +163,10 @@ To use this script, you need to have the SF Pro Text fonts installed on your sys
 
 If you have SF Pro Text fonts installed on your system (typically in `/Library/Fonts`), the script will automatically find and use them. This is the default behavior.
 
-````console
+```console
 # Use fonts from the default location (/Library/Fonts)
-sf-symbols-svg`
+sf-symbols-svg
+```
 
 #### Using fonts from a custom directory
 
